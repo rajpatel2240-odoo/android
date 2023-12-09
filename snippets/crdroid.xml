@@ -13,6 +13,10 @@
            sync-j="4"
            revision="refs/heads/13.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/"/>
+
+
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
 
@@ -116,5 +120,19 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  
+  <!-- Dubai Repos -->
+  <project name="rajpatel2240-odoo/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="crd" clone-depth="1"/>
+  <project name="surajdazz/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="crd" clone-depth="1"/>
+  <project name="surajdazz/hardware_motorola" path="hardware/motorola" remote="github" revision="13"/>
+  <project name="surajdazz/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="13" clone-depth="1" />
+  <project name="surajdazz/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="13" clone-depth="1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" clone-depth="1"/>
+  <project name="surajdazz/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai" clone-depth="1"/>
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
+  <project name="Shaka98/kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
 
+  <!-- Extra Features -->
+  <project path="vendor/bcr" name="rajpatel2240-odoo/vendor_bcr" remote="github" revision="13"/>
+  
 </manifest>
