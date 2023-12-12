@@ -134,5 +134,5 @@
 
   <!-- Extra Features -->
   <project path="vendor/bcr" name="rajpatel2240-odoo/vendor_bcr" remote="github" revision="13"/>
-  <project path="vendor/lineage" name="rajpatel2240-odoo/android_vendor_crdroid" remote="github" revision="13" />
+  <project path="vendor/lineage" name="rajpatel2240-odoo/android_vendor_crdroid" remote="github" revision="13.0" />
 </manifest>
